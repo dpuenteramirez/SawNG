@@ -1,25 +1,6 @@
-#!/usr/bin/python3.9
-
 #SawNG AKA Sherlock and Watson Next Gen
-#This file (along with privEscVulns.txt) should be placed in the root directory of windows exploit suggester NG
-#This script simply filters the output from WESNG to show the privilege escalation CVEs which sherlock and watson look for. 
-#This script was made becuase sherlock required python 2 which kali has dropped support for and becuase watson can only be used against certain windows builds.
-#This meant that I was unable to use both tools in my hunt for PrivEsc vectors. 
-#Using windows exploit suggestor alone gave me way too much output (I was using an unpatched windows server r2 2012)
 
-#WARNING: As the watson codebase is updated with new CVEs that also means that privEscVulns.txt will need updating too
-
-#Useage
-#First clone/download the windows exploit suggester ng from https://github.com/bitsadmin/wesng
-
-#Next run windows exploit suggester and pipe the output to wesOutput like so:
-#For Linux
-#python3 wes.py /home/kali/HTB/Optimum/sysinfo.txt > wesOutput.txt
-#For Windows
-## TODO  ##
-
-#Next run this script like so: 
-#python3 SawNG.py 
+#!/usr/bin/python3.9
 
 import re 
 
