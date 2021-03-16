@@ -15,8 +15,8 @@ The files in this repo should be placed in the root directory of windows exploit
 2) Next run windows exploit suggester and pipe the output to wesOutput like so:
 
 &nbsp;&nbsp;&nbsp;&nbsp;For Linux:
-  
-&nbsp;&nbsp;&nbsp;&nbsp;`python3 wes.py /home/kali/HTB/Optimum/sysinfo.txt > wesOutput.txt`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`python3 wes.py YourSystemInfoFile > wesOutput.txt`
 
 &nbsp;&nbsp;&nbsp;&nbsp;For Windows:
   
