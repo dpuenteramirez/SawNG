@@ -12,13 +12,17 @@ The files in this repo should be placed in the root directory of windows exploit
 
 1) First clone/download the windows exploit suggester ng from https://github.com/bitsadmin/wesng
 
-Next run windows exploit suggester and pipe the output to wesOutput like so:
-For Linux
-`python3 wes.py /home/kali/HTB/Optimum/sysinfo.txt > wesOutput.txt`
-For Windows
-TODO
+2) Next run windows exploit suggester and pipe the output to wesOutput like so:
 
-2) Next run this script like so: 
+&nbsp;&nbsp;&nbsp;&nbsp;For Linux:
+  
+&nbsp;&nbsp;&nbsp;&nbsp;`python3 wes.py /home/kali/HTB/Optimum/sysinfo.txt > wesOutput.txt`
+
+&nbsp;&nbsp;&nbsp;&nbsp;For Windows:
+  
+&nbsp;&nbsp;&nbsp;&nbsp;TODO
+
+3) Finally run this script like so: 
 `python3 SawNG.py` 
 
 # WARNING
