@@ -1,5 +1,5 @@
 # SawNG AKA Sherlock and Watson Next Gen
-Sherlock and Watson exploit check again Windows exploit suggester (wes) NG
+Sherlock and Watson exploit check against Windows exploit suggester (wes) NG
 This project is a simple python script that filters the output from wesNG to show only privilege escalation CVEs which sherlock and watson look for. 
 
 # Rationale
