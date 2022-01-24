@@ -3,9 +3,9 @@ Sherlock and Watson exploit filter against Windows Exploit Suggester (Wes) NG ou
 This project is a simple python script that filters the output from WesNG to show only privilege escalation CVEs which sherlock and watson look for. 
 
 # Rationale
-This script was made becuase Sherlock requires Python 2 which Kali dropped support for in 2020. Also developed becuase Watson can only be used against specific Windows builds.
+This script was made because Sherlock requires Python 2 which Kali dropped support for in 2020. Also developed because Watson can only be used against specific Windows builds.
 This meant that I was no able to use Sherlock or Watson in my hunt for Windows PrivEsc vectors since I was pentesting an unpatched windows server r2 2012 using 2020 Kali Linux.
-Additionally using Windows Exploit Suggestor alone gave me way too much output for it to be of any use so this script pretty much saved the day.
+Additionally using Windows Exploit Suggester alone gave me way too much output for it to be of any use so this script pretty much saved the day.
 
 # Usage
 The files in this repo should be placed in the root directory of Windows Exploit Suggester NG
@@ -26,4 +26,4 @@ The files in this repo should be placed in the root directory of Windows Exploit
 `python3 SawNG.py` 
 
 # WARNING
-This project may become outdated as the watson codebase is updated with new CVEs. Therefore the privEscVulns.txt file will need updating with any new CVEs. The CVEs can be found at https://github.com/rasta-mouse/Watson/blob/master/Watson/VulnerabilityCollection.cs
+This project may become outdated as the Watson codebase is updated with new CVEs. Therefore the privEscVulns.txt file will need updating with any new CVEs. The CVEs can be found at https://github.com/rasta-mouse/Watson/blob/master/Watson/VulnerabilityCollection.cs
