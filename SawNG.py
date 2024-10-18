@@ -2,9 +2,10 @@
 
 #!/usr/bin/python3.9
 
-import re 
+import re
+import sys
 
-cves = open('./privEscVulns.txt', 'r')
+cves = open('/opt/wesng/SawNG/privEscVulns.txt', 'r')
 Lines = cves.readlines()
 output = []
 cveList = ""
@@ -20,7 +21,7 @@ if cveList.endswith("|"):
 	cveList = cveList.removesuffix("|")
 
 # Open file as file object and read to string
-ifile = open("wesOutput.txt",'r')
+ifile = open(sys.argv[1], 'r')
 
 # Read file object to string
 text = ifile.read()
